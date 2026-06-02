@@ -8,4 +8,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="img\" />
+    <Folder Include="classes\" />
+    <Folder Include="uc\" />
+    <Folder Include="windows\" />
+  </ItemGroup>
+
 </Project>

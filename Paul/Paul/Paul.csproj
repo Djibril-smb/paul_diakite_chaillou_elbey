@@ -13,11 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="classes\" />
-    <Folder Include="windows\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="img\deconnexion.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

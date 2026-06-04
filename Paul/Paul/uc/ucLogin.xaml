@@ -23,7 +23,7 @@
                 <TextBox x:Name="TxtMotDePasse" Background="Transparent" BorderThickness="0" VerticalAlignment="Center" Padding="12,0" FontSize="14"/>
             </Border>
 
-            <Button Content="Se connecter" Height="40" Width="160" Foreground="White" FontSize="14" HorizontalAlignment="Center" Click="BtnConnexion_Click">
+            <Button Content="Se connecter" Height="40" Width="160" Foreground="White" FontSize="14" HorizontalAlignment="Center" >
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Background="#231F20" CornerRadius="20">

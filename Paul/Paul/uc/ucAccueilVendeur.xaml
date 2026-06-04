@@ -21,7 +21,7 @@
 
                 <StackPanel VerticalAlignment="Center" RenderTransformOrigin="0.525,-0.296">
 
-                    <Button x:Name="BtnMenuCommandes" Click="BtnMenuCommandes_Click" Height="45" Margin="0,5" Cursor="Hand">
+                    <Button x:Name="BtnMenuCommandes" Height="45" Margin="0,5" Cursor="Hand">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border x:Name="FondBtn" Background="#FFEAA7" CornerRadius="12">
@@ -32,7 +32,7 @@
                         </Button.Template>
                     </Button>
 
-                    <Button x:Name="BtnMenuProduits" Click="BtnMenuProduits_Click" Height="45" Margin="0,5" Cursor="Hand">
+                    <Button x:Name="BtnMenuProduits" Height="45" Margin="0,5" Cursor="Hand">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">
@@ -43,7 +43,7 @@
                         </Button.Template>
                     </Button>
 
-                    <Button x:Name="BtnMenuClients" Click="BtnMenuClients_Click" Height="45" Margin="0,5" Cursor="Hand">
+                    <Button x:Name="BtnMenuClients"  Height="45" Margin="0,5" Cursor="Hand">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">
@@ -55,7 +55,7 @@
                     </Button>
                 </StackPanel>
 
-                <Button x:Name="BtnMenuDeconnexion" Click="BtnMenuDeconnexion_Click" VerticalAlignment="Bottom" Height="45" Cursor="Hand">
+                <Button x:Name="BtnMenuDeconnexion"  VerticalAlignment="Bottom" Height="45" Cursor="Hand">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <TextBlock Text="Deconnexion" FontSize="18" FontFamily="Georgia" FontWeight="SemiBold" 

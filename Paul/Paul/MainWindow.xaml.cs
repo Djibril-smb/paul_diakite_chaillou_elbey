@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Paul.uc;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,8 @@ namespace Paul
         public MainWindow()
         {
             InitializeComponent();
+            ucCommandes uc = new ucCommandes();
+            gridPrincipal.Children.Add(uc);
         }
     }
 }

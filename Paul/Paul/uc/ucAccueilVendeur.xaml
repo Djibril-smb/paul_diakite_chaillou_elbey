@@ -5,8 +5,68 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Paul.uc"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+             d:DesignHeight="600" d:DesignWidth="900"
+             Background="#FAF4EB">
+
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#D4D4D4" CornerRadius="20" Margin="0,0,20,0">
+            <Grid Margin="15,10,15,15">
+                <Button Content="←" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                        FontSize="24" Background="Transparent" BorderThickness="0" Cursor="Hand"/>
+
+                <StackPanel VerticalAlignment="Center" RenderTransformOrigin="0.525,-0.296">
+
+                    <Button x:Name="BtnMenuCommandes" Click="BtnMenuCommandes_Click" Height="45" Margin="0,5" Cursor="Hand">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="FondBtn" Background="#FFEAA7" CornerRadius="12">
+                                    <TextBlock Text="Commandes" FontSize="18" FontFamily="Georgia" FontWeight="SemiBold" 
+                                               Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="BtnMenuProduits" Click="BtnMenuProduits_Click" Height="45" Margin="0,5" Cursor="Hand">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">
+                                    <TextBlock Text="Produits" FontSize="18" FontFamily="Georgia" FontWeight="SemiBold" 
+                                               Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="BtnMenuClients" Click="BtnMenuClients_Click" Height="45" Margin="0,5" Cursor="Hand">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">
+                                    <TextBlock Text="Clients" FontSize="18" FontFamily="Georgia" FontWeight="SemiBold" 
+                                               Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+
+                <Button x:Name="BtnMenuDeconnexion" Click="BtnMenuDeconnexion_Click" VerticalAlignment="Bottom" Height="45" Cursor="Hand">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <TextBlock Text="Deconnexion" FontSize="18" FontFamily="Georgia" FontWeight="SemiBold" 
+                                       Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </Border>
+
+        <ContentControl x:Name="EcranContenuDroite" Grid.Column="1"/>
+
     </Grid>
 </UserControl>

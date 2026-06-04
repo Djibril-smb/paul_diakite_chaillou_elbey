@@ -20,7 +20,7 @@ namespace Paul
         public MainWindow()
         {
             InitializeComponent();
-            ucClient uc = new ucClient();
+            ucAccueilVendeur uc = new ucAccueilVendeur();
             gridPrincipal.Children.Add(uc);
         }
     }

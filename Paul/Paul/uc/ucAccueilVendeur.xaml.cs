@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Paul.uc
 {
@@ -23,6 +24,23 @@ namespace Paul.uc
         public ucAccueilVendeur()
         {
             InitializeComponent();
+        }
+
+        private void BtnMenuCommandes_Click(object sender, RoutedEventArgs e)
+        {
+            ucCommandes ecranCommandes = new ucCommandes();
+            EcranContenuDroite.Content = ecranCommandes;
+        }
+
+        private void BtnMenuProduits_Click(object sender, RoutedEventArgs e)
+        {
+            
+
+        }
+
+        private void BtnMenuClients_Click(object sender, RoutedEventArgs e)
+        {
+            FondBtn.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#EAEAEA"));
         }
     }
 }

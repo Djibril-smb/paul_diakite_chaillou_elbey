@@ -21,7 +21,7 @@
 
                 <StackPanel VerticalAlignment="Center" RenderTransformOrigin="0.525,-0.296">
 
-                    <Button x:Name="BtnMenuCommandes" Height="45" Margin="0,5" Cursor="Hand">
+                    <Button x:Name="BtnMenuCommandes" Height="45" Margin="0,5" Cursor="Hand" Click="BtnMenuCommandes_Click">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border x:Name="FondBtn" Background="#FFEAA7" CornerRadius="12">
@@ -32,7 +32,7 @@
                         </Button.Template>
                     </Button>
 
-                    <Button x:Name="BtnMenuProduits" Height="45" Margin="0,5" Cursor="Hand">
+                    <Button x:Name="BtnMenuProduits" Height="45" Margin="0,5" Cursor="Hand" Click="BtnMenuProduits_Click">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">
@@ -43,7 +43,7 @@
                         </Button.Template>
                     </Button>
 
-                    <Button x:Name="BtnMenuClients"  Height="45" Margin="0,5" Cursor="Hand">
+                    <Button x:Name="BtnMenuClients"  Height="45" Margin="0,5" Cursor="Hand" Click="BtnMenuClients_Click">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">

@@ -2,10 +2,25 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="uc\ucAccueilPatissier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="uc\ucAccueilVendeur.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="uc\ucClient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="uc\ucCommandes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="uc\ucLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="uc\ucProduit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\creationProduit.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

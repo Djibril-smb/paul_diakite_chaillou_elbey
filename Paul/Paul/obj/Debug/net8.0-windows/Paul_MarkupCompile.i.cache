@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 P:\SAE2.01\Paul\Paul\App.xaml
-31806897103
+8-1188188909
 
-8114512399
+131048356411
 198347540315
-MainWindow.xaml;uc\ucAccueilVendeur.xaml;uc\ucLogin.xaml;
+MainWindow.xaml;uc\ucAccueilPatissier.xaml;uc\ucAccueilVendeur.xaml;uc\ucClient.xaml;uc\ucCommandes.xaml;uc\ucLogin.xaml;uc\ucProduit.xaml;windows\creationProduit.xaml;
 
 True
 

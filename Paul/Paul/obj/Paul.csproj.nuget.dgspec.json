@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SmartChief\\Desktop\\SAE201\\Paul\\Paul\\Paul.csproj": {}
+    "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SmartChief\\Desktop\\SAE201\\Paul\\Paul\\Paul.csproj": {
+    "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SmartChief\\Desktop\\SAE201\\Paul\\Paul\\Paul.csproj",
+        "projectUniqueName": "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj",
         "projectName": "Paul",
-        "projectPath": "C:\\Users\\SmartChief\\Desktop\\SAE201\\Paul\\Paul\\Paul.csproj",
-        "packagesPath": "C:\\Users\\SmartChief\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SmartChief\\Desktop\\SAE201\\Paul\\Paul\\obj\\",
+        "projectPath": "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj",
+        "packagesPath": "C:\\Users\\diakitab\\.nuget\\packages\\",
+        "outputPath": "P:\\SAE2.01\\Paul\\Paul\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SmartChief\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diakitab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

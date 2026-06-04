@@ -20,7 +20,7 @@ namespace Paul
         public MainWindow()
         {
             InitializeComponent();
-            ucCommandes uc = new ucCommandes();
+            ucClient uc = new ucClient();
             gridPrincipal.Children.Add(uc);
         }
     }

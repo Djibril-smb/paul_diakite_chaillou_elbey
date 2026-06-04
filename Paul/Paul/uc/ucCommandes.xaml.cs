@@ -29,7 +29,7 @@ namespace Paul.uc
         {
             InitializeComponent();
 
-            // On s'abonne à l'événement Loaded pour charger les données de la BDD
+           
             this.Loaded += UcCommandes_Loaded;
         }
 

@@ -46,7 +46,7 @@
                     <Button x:Name="BtnMenuClients"  Height="45" Margin="0,5" Cursor="Hand" Click="BtnMenuClients_Click">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border x:Name="FondBtn" Background="Transparent" CornerRadius="12">
+                                <Border x:Name="FondBtnf" Background="Transparent" CornerRadius="12">
                                     <TextBlock Text="Clients" FontSize="18" FontFamily="Georgia" FontWeight="SemiBold" 
                                                Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0"/>
                                 </Border>

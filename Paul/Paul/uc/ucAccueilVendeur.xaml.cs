@@ -40,7 +40,9 @@ namespace Paul.uc
 
         private void BtnMenuClients_Click(object sender, RoutedEventArgs e)
         {
-            FondBtn.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#EAEAEA"));
+            
+            ucClient ecranClient = new ucClient();
+            EcranContenuDroite.Content = ecranClient;
         }
     }
 }

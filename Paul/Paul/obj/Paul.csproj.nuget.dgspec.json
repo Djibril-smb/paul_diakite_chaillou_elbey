@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj": {}
+    "P:\\S2\\SAE2.01\\Paul\\Paul\\Paul.csproj": {}
   },
   "projects": {
-    "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj": {
+    "P:\\S2\\SAE2.01\\Paul\\Paul\\Paul.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj",
+        "projectUniqueName": "P:\\S2\\SAE2.01\\Paul\\Paul\\Paul.csproj",
         "projectName": "Paul",
-        "projectPath": "P:\\SAE2.01\\Paul\\Paul\\Paul.csproj",
-        "packagesPath": "C:\\Users\\diakitab\\.nuget\\packages\\",
-        "outputPath": "P:\\SAE2.01\\Paul\\Paul\\obj\\",
+        "projectPath": "P:\\S2\\SAE2.01\\Paul\\Paul\\Paul.csproj",
+        "packagesPath": "C:\\Users\\chailloz\\.nuget\\packages\\",
+        "outputPath": "P:\\S2\\SAE2.01\\Paul\\Paul\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\diakitab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chailloz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

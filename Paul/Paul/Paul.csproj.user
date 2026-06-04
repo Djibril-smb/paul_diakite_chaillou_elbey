@@ -20,7 +20,25 @@
     <Compile Update="uc\ucProduit.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="windows\allergenes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\confirmation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\creationClient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\creationCommande.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="windows\creationProduit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\deconnexion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="windows\FicheProduit.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
